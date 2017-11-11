@@ -6,6 +6,8 @@ A repo to gather and develop Minecraft Pi resources for Rhiwbina Code Club
 + [Minecraft API Reference](http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 + [Tutorials](http://www.stuffaboutcode.com/p/minecraft.html) from [Martin O'Hanlon](https://github.com/martinohanlon) 
 + [MinecraftShape API](http://minecraft-stuff.readthedocs.io/en/latest/minecraftshape.html)
++ [Getting started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)
+
 
 
 **Proposed Plans**
