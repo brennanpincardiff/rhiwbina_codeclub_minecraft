@@ -6,7 +6,7 @@ Aim: To get learners going with manipulating Minecraft Pi with Python as soon as
 **Steps:**
 1. Assemble the Pi.
 2. Open Minecraft and create a new world.
-3. Open the Python3 IDE
+3. Open the Python3 (IDLE)
 4. Open a new file
 5. Cut and paste this code into the new file
 ```python
@@ -32,8 +32,7 @@ while True:
 13. How about you go back to your Python script and change the types of block that you drop.
 14. Replace the word `flower` with one of numbers below.
 15. Change your script, save it, run again in Terminal and check in Minecraft.
-16. Change and repeat. 
-17. Have fun. 
+16. Change and repeat - have fun :smiley:
 
 **Types of block that you might like to try**
 
