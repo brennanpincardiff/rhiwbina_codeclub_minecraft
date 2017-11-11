@@ -8,7 +8,7 @@ Aim: To get learners going with manipulating Minecraft Pi with Python as soon as
 2. Open Minecraft and create a new world.
 3. Open the Python3 (IDLE)
 4. Open a new file
-5. Cut and paste this code into the new file
+5. Type this code into the new file
 ```python
 from mcpi.minecraft import Minecraft
 from time import sleep
