@@ -1,7 +1,7 @@
 Reducing [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) into
 shorter steps to complete in one hour Code Club lesson. 
 
-Aim: To get learners moving with manipulating Minecraft Pi with Python as soon as possible. 
+Aim: To get learners going with manipulating Minecraft Pi with Python as soon as possible. 
 
 **Steps:**
 1. Assemble the Pi.
@@ -46,6 +46,5 @@ while True:
 | 10 | LAVA_FLOWING      | 
 | 40 | MUSHROOM_RED       | 
 
-
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
-If finished quickly, check out longer lesson here: [Getting Started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
+If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
