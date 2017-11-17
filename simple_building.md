@@ -37,10 +37,8 @@ mc.setBlocks(x+(width/2), y+1, z, x+(width/2)+1, y+3, z+1, 0)
 9. To run the file, type `python building.py` in the Terminal and press return.
 10. Go to Minecraft and see if your building has been made...
 11. Try changing the size or what the building is made of...
-12. Try replacing the door with a wooden door...
-12. Maybe add a bed or some other material inside...
-13. Change your script, save it, run again in Terminal and check in Minecraft.
-14. Change and repeat - have fun :smiley:
+12. Change your script, save it, run again in Terminal and check in Minecraft.
+13. Change and repeat - have fun :smiley:
 
 **Types of block that you might like to try**
 
@@ -49,8 +47,6 @@ mc.setBlocks(x+(width/2), y+1, z, x+(width/2)+1, y+3, z+1, 0)
 | 17 | WOOD     | 
 | 35 | WOOL     | 
 | 79 | ICE      | 
-| 64 | DOOR_WOOD| 
-| 71 | DOOR_IRON| 
 
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
