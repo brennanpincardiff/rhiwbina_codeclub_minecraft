@@ -7,7 +7,7 @@ A repo to gather and develop Minecraft Pi resources for Rhiwbina Code Club
 + [Tutorials](http://www.stuffaboutcode.com/p/minecraft.html) from [Martin O'Hanlon](https://github.com/martinohanlon) 
 + [MinecraftShape API](http://minecraft-stuff.readthedocs.io/en/latest/minecraftshape.html)
 + [Getting started with Minecraft Pi](https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi)
-+ [Making a big block] (http://www.pihomeserver.fr/en/2015/05/30/raspberry-pi-minecraft-et-python/)
++ [Making a big block](http://www.pihomeserver.fr/en/2015/05/30/raspberry-pi-minecraft-et-python/)
 
 
 
