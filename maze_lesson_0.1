@@ -1,0 +1,49 @@
+Let's try to write a maze lesson for a one hour Code Club lesson. 
+
+Aim: Download file with a maze in it; run the file  
+
+**Steps:**
+1. Assemble the Pi.
+2. Connect to the internet
+3. Download the file with the maze in it...
+4. Type this code into the new file
+```python
+from mcpi.minecraft import Minecraft
+
+mc = Minecraft.create()
+
+# open file 
+filename = "maze.txt"
+file = open(filename, "r")
+# use file to draw maze
+# put setBlocks command in file?
+setBlocks(x0,y0,z0,x1,y1,z1,blockType, blockData)
+
+# teleport player to door
+
+
+
+
+
+```
+6. Save the file with a meaningful name... `maze`.
+7. Go to Terminal.
+8. Check that you're in the directory where you saved the file.
+9. To run the file, type `python maze.py` in the Terminal and press return.
+10. Go to Minecraft and see if your maze has been made...
+
+
+11. Try changing the size or what the building is made of...
+12. Change your script, save it, run again in Terminal and check in Minecraft.
+13. Change and repeat - have fun :smiley:
+
+**Types of block that you might like to try**
+
+| Number        | Block| 
+| :-------------: |:-------------:| 
+| 17 | WOOD     | 
+| 35 | WOOL     | 
+| 79 | ICE      | 
+
+See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
+If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
