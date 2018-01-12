@@ -6,18 +6,15 @@ Aim: Download file with a CSV maze in it; run the file to make the maze; explore
 1. Assemble the Pi.
 2. Connect to the internet
 3. Download the file with the maze in it...
-Open Terminal
-Type this in to download the maze_rcc.csv file
+4. Open Terminal
+5. Type this in to download the maze_rcc.csv file
 ```
 wget https://raw.githubusercontent.com/brennanpincardiff/rhiwbina_codeclub_minecraft/master/maze_rcc.csv
 ```
 
-4. Type this code into the new file
-
-Open Python IDE
-
-Open a new file
-
+6. Type this code into the new file
+7. Open Python IDE
+8. Open a new file
 ```python
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
