@@ -63,9 +63,8 @@ nano maze_rcc.csv
 2. Add ones and zeros to change the maze - 1 = wall; zeros = air.
 3. Control X to save the new maze
 4. Save modified buffer by pressing Y
-3. Run the script again in Terminal and check in Minecraft.
-13. Have fun :smiley:
-
+5. Run the script again in Terminal and check in Minecraft.
+6. Have fun :smiley:
 
 
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
