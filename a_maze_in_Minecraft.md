@@ -11,10 +11,9 @@
 ```
 wget https://raw.githubusercontent.com/brennanpincardiff/rhiwbina_codeclub_minecraft/master/maze_rcc.csv
 ```
-
-6. Type this code into the new file
+6. Now, write the python code
 7. Open Python IDE
-8. Open a new file
+8. Open a new file and here is the code:
 ```python
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
