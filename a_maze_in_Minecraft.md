@@ -1,6 +1,6 @@
 Let's try to write a maze lesson for a one hour Code Club lesson. 
 
-Aim: Download file with a maze in it; run the file  
+Aim: Download file with a CSV maze in it; run the file to make the maze; explore & have fun  
 
 **Steps:**
 1. Assemble the Pi.
@@ -48,23 +48,25 @@ for line in f.readlines():
 ```
 
 6. Save the file with a meaningful name... `maze`.
-7. Go to Terminal.
-8. Check that you're in the directory where you saved the file.
-9. To run the file, type `python maze.py` in the Terminal and press return.
-10. Go to Minecraft and see if your maze has been made...
-11. Can you make your way to the centre.
+7. Open up Minecraft and create a new world
+8. Go to Terminal.
+9. Check that you're in the directory where you saved the file.
+10. To run the file, type `python maze.py` in the Terminal and press return.
+11. Go to Minecraft and see if your maze has been made...
+12. Explore.
 
-12. Try opening and changing the csv file... maybe make the maze larger and more interesting...
-13. Run the script again in Terminal and check in Minecraft.
+**Extending the maze:**
+1. In Terminal use nano to open and change the csv file... maybe make the maze larger and more interesting...
+```
+nano maze_rcc.csv
+```
+2. Add ones and zeros to change the maze - 1 = wall; zeros = air.
+3. Control X to save the new maze
+4. Save modified buffer by pressing Y
+3. Run the script again in Terminal and check in Minecraft.
 13. Have fun :smiley:
 
-**Types of block that you might like to try**
 
-| Number        | Block| 
-| :-------------: |:-------------:| 
-| 17 | WOOD     | 
-| 35 | WOOL     | 
-| 79 | ICE      | 
 
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
