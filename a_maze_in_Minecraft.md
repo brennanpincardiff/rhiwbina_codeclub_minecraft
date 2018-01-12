@@ -21,7 +21,7 @@ import mcpi.block as block
 
 GAP = block.AIR.id
 WALL = block.GOLD_BLOCK.id
-FLOOR = block.grass.id
+FLOOR = block.GRASS.id
 
 FILENAME = "maze_rcc.csv"
 f = open(FILENAME, "r")
