@@ -13,6 +13,9 @@ wget https://raw.githubusercontent.com/brennanpincardiff/rhiwbina_codeclub_minec
 ```
 
 4. Type this code into the new file
+Open Python IDE
+Open a new file
+
 ```python
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
