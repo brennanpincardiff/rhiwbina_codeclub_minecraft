@@ -6,9 +6,11 @@ Aim: Download file with a maze in it; run the file
 1. Assemble the Pi.
 2. Connect to the internet
 3. Download the file with the maze in it...
-Open console
-
-```wget https://raw.githubusercontent.com/brennanpincardiff/rhiwbina_codeclub_minecraft/master/maze_rcc.csv```
+Open Terminal
+Type this in to download the maze_rcc.csv file
+```
+wget https://raw.githubusercontent.com/brennanpincardiff/rhiwbina_codeclub_minecraft/master/maze_rcc.csv
+```
 
 4. Type this code into the new file
 ```python
@@ -20,7 +22,7 @@ GAP = block.AIR.id
 WALL = block.GOLD_BLOCK.id
 FLOOR = block.grass.id
 
-FILENAME = "maze1.csv"
+FILENAME = "maze_rcc.csv"
 f = open(FILENAME, "r")
 
 pos = mc.player.getTilePos()
