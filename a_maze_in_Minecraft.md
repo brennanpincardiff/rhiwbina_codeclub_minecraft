@@ -70,6 +70,7 @@ nano maze_rcc.csv
 
 
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
+
 If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
 
 adapted from "Adventures in Minecraft, 2nd Edition" by Martin O'Hanlon & David Whale
