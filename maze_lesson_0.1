@@ -6,26 +6,44 @@ Aim: Download file with a maze in it; run the file
 1. Assemble the Pi.
 2. Connect to the internet
 3. Download the file with the maze in it...
+
+
 4. Type this code into the new file
+
 ```python
 from mcpi.minecraft import Minecraft
-
 mc = Minecraft.create()
+import mcpi.block as block
 
-# open file 
-filename = "maze.txt"
-file = open(filename, "r")
-# use file to draw maze
-# put setBlocks command in file?
-setBlocks(x0,y0,z0,x1,y1,z1,blockType, blockData)
+GAP = block.AIR.id
+WALL = block.GOLD_BLOCK.id
+FLOOR = block.grass.id
 
-# teleport player to door
+FILENAME = "maze1.csv"
+f = open(FILENAME, "r")
 
+pos = mc.player.getTilePos()
+ORIGIN_X = pos.x+1
+ORIGIN_Y = pos.y
+ORIGIN_Z = pos.z+1
 
+z = ORIGIN_Z
 
-
-
+for line in f.readlines():
+    data = line.split(",")
+    x = ORIGIN_X
+    for cell in data:
+        if cell == "0":
+            b = GAP
+        else:
+            b = WALL
+        mc.setBlock(x, ORIGIN_Y, z, b)
+        mc.setBlock(x, ORIGIN_Y+1, z, b)
+        mc.setBlock(x, ORIGIN_Y-1, z, FLOOR)
+        x = x + 1
+    z = z + 1
 ```
+
 6. Save the file with a meaningful name... `maze`.
 7. Go to Terminal.
 8. Check that you're in the directory where you saved the file.
@@ -47,3 +65,5 @@ setBlocks(x0,y0,z0,x1,y1,z1,blockType, blockData)
 
 See documentation for a full list of block types: (http://www.stuffaboutcode.com/p/minecraft-api-reference.html)
 If finished quickly, check out longer lesson here: (https://projects.raspberrypi.org/en/projects/getting-started-with-minecraft-pi) 
+
+adapted from "Adventures in Minecraft, 2nd Edition" by Martin O'Hanlon & David Whale
