@@ -1,6 +1,6 @@
 Let's try to write a maze lesson for a one hour Code Club lesson. 
 
-Aim: Download file with a CSV maze in it; run the file to make the maze; explore & have fun  
+**Aim:** Download file with a CSV maze in it; run the file to make the maze; explore & have fun  
 
 **Steps:**
 1. Assemble the Pi.
